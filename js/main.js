@@ -24,7 +24,7 @@
    ........... not only in javascript */
 
 // so let's have an object
-/*
+
 const myObject = {
    name: "dude",
    hobbies: ["eat","code","play","sleep"],
@@ -48,13 +48,13 @@ because it's in JSON format (string Or txt) so
 myObject properties are just string in JSON */
 //===========================================
 // let's receive data from JSON
-/*
+
 const receiveJSON = JSON.parse(sendJSON);
 console.log(receiveJSON);
 console.log(typeof receiveJSON); // now it's object (not string anymore!)
 // now we can access the properties of myObject
 console.log(receiveJSON.name);
-console.log(receiveJSON.hobbies); */
+console.log(receiveJSON.hobbies); 
 /////////////////////////////////////////////////////////////////////////////////////
 // one more time!
 const jackBullwark = {
